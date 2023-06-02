@@ -1,0 +1,36 @@
+.my-name{
+    max-widht:1300px;
+    text-align:center
+}
+.name{
+    font-size:70px
+}
+.social{
+    padding:5px;
+}
+.obeckt{
+    text-align:center;
+}
+.title{
+    text-align:center
+}
+.worktime{
+    display:flex;
+    justify-content: space-between
+}               
+.skillsType ul{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.cont{
+    background-color:#111;
+    padding:30px;
+    widht:100%;
+}
+.cont a{
+    text-align:center;   
+}
+.form{
+    text-align:center
+}
