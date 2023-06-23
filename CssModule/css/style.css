@@ -11,9 +11,21 @@
   width: 1140px;
   margin: 0 auto;
 }
-.clearfix{
-    clear: both
+
+.clearfix {
+  clear: both;
 }
+.blur_line{
+  display: inline-block;
+  margin-left: 16px;
+  width:100px;
+  height:8px;
+  background: rgba(255, 255, 40, 0.7);
+  filter: blur(4px);
+  border-radius: 4px;
+
+}
+
 .header {
   display: inline-block;
   vertical-align: middle;
@@ -75,52 +87,150 @@
   color: #333;
   padding: 10px;
 }
-.main_info .social_media a{
+.main_info .social_media a {
   display: inline-block;
   vertical-align: middle;
   padding: 23px 18px;
   color: #333;
   font-size: 28px;
-  transition: .5s all ease;
+  transition: 0.5s all ease;
 }
-.main_info .social_media a:hover i{
-    color: #ffff0d;
-}
-
-.main_info .btn{
-    padding: 23px;
-    border: none;
-    border-radius: 10px 0 10px 0;
-    font-size: 19px;
-    font-weight: 600;
-    text-transform: uppercase;
-    background: #555;
-    color: #fff;  
-    transition: .3s all ease;
-}
-.main_info .btn:hover{
-    background: #ffff0d;
-    color: black;
-    border-radius: 0 10px 0 10px;
+.main_info .social_media a:hover i {
+  color: #ffff0d;
 }
 
-.statistics{
-    padding: 100px;
-    display: inline-block;
-    vertical-align: middle;
+.btn {
+  padding: 23px;
+  border: none;
+  border-radius: 10px 0 10px 0;
+  font-size: 19px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #555;
+  color: #fff;
+  transition: 0.3s all ease;
 }
-.statistics_item{
-    display: inline-block;
-    padding: 22px;
-    cursor: pointer;
+.my_btn .btn:hover {
+  background: #ffff0d;
+  color: black;
+  border-radius: 0 10px 0 10px;
 }
-.statistics_item h3{
-    font-size: 27px;
-    font-weight: 500;
-    color: #333; 
+
+.statistics {
+  padding: 100px;
+  display: inline-block;
+  vertical-align: middle;
 }
-.statistics_item p{
-    font-size: 19px;
-    font-weight: 400;
-    color: #333; 
+.statistics_item {
+  display: inline-block;
+  padding: 22px;
+  cursor: pointer;
+}
+.statistics_item h3 {
+  font-size: 27px;
+  font-weight: 500;
+  color: #333;
+}
+.statistics_item p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #333;
+}
+.about_us > div {
+  width: 50%;
+  float: left;
+}
+.about_img img {
+  width: 500px;
+  height: 550px;
+}
+.about_title {
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 500;
+}
+.about_titles {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  padding: 20px 0;
+}
+.about_paragraphe {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 54px;
+}
+.my_servisece{
+  padding: 100px;
+}
+.service_card{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.service_card_items{
+  padding: 80px 50px;
+  margin-left: 10px;
+  align-items: center;
+  text-align: center;
+  background: #e5e6c2;
+  transition: all .4s ease;
+}
+.service_card_items:hover{
+  background: rgba(255, 255, 40, 0.7);
+  filter: blur(2px);
+}
+
+.card_icons{
+  color: #ffff0d;
+}
+.card_title{
+  font-size: 27px;
+  font-weight: 500;
+  padding: 30px 0;
+}
+.card_descriptions{
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+}
+.card_buttun{
+  font-size: 21px;
+  font-weight: 500;
+  margin: 20px;
+}
+.card_buttun a{
+  color: #555;
+  text-decoration:underline 3px ;
+
+}
+.my_client_card > div{
+  width: 50%;
+  float: left;
+}
+.my_client_card{
+  padding-top: 70px;
+}
+.client_img img{
+  width: 400px;
+  height: 500px;
+}
+.client_name{
+  padding-top: 100px;
+  font-size: 29px;
+  font-weight: 500;
+}
+.cleint_position{
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.claint_descriptions{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+.cleint_ball{
+  color: #ffff0d;
+  padding: 10px;
 }
