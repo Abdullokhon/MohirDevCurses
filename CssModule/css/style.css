@@ -26,33 +26,40 @@
 
 }
 
+
 .header {
   display: inline-block;
   vertical-align: middle;
+  position: fixed;
+  background: #fff;
+  box-shadow: 0px 3px 16px 0px rgba(0 0 0 / 10% );
+  width: 100%;
 }
 .brend {
   display: inline-block;
-  padding-right: 20px;
-  padding-top: 20px;
+  padding: 20px;
+  margin-left: 100px;
+
 }
 .brend span {
-  font-weight: 700;
-  font-size: 37px;
+  font-weight: 500;
+  font-size: 27px;
   color: black;
 }
 .navigation {
   display: inline-block;
   vertical-align: middle;
+  margin-left: 140px;
 }
 .navigation .navigation-itrems {
   display: inline-block;
-  padding: 20px;
+  padding-left: 21px;
   text-transform: uppercase;
 }
 
 .navigation .navigation-itrems a {
-  font-weight: 500;
-  font-size: 21px;
+  font-weight: 400;
+  font-size: 16px;
   color: #000;
   transition: 0.3s all ease;
 }
@@ -63,6 +70,7 @@
 .main-section > div {
   width: 50%;
   float: left;
+  padding-top: 100px;
 }
 .main-section .main_pic {
   padding-left: 90px;
