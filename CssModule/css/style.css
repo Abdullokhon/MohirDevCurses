@@ -34,12 +34,12 @@
   background: #fff;
   box-shadow: 0px 3px 16px 0px rgba(0 0 0 / 10% );
   width: 100%;
+  z-index: 10;
 }
 .brend {
   display: inline-block;
   padding: 20px;
   margin-left: 100px;
-
 }
 .brend span {
   font-weight: 500;
@@ -108,18 +108,19 @@
 }
 
 .btn {
-  padding: 23px;
+  padding: 20px 67px;
   border: none;
   border-radius: 10px 0 10px 0;
   font-size: 19px;
   font-weight: 600;
   text-transform: uppercase;
-  background: #555;
+  background: linear-gradient(to bottom right, #ffff0d, #0bc0f7 ) ;
+  background-size: 200% auto;
   color: #fff;
-  transition: 0.3s all ease;
+  transition: all .3s ease;
 }
 .my_btn .btn:hover {
-  background: #ffff0d;
+  background-position: right top;
   color: black;
   border-radius: 0 10px 0 10px;
 }
@@ -133,16 +134,19 @@
   display: inline-block;
   padding: 22px;
   cursor: pointer;
+  background: linear-gradient(to bottom right, #ffff0d, #0bc0f7 ) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .statistics_item h3 {
-  font-size: 27px;
-  font-weight: 500;
-  color: #333;
+  font-size: 34px;
+  font-weight: 600;
+  
 }
 .statistics_item p {
-  font-size: 19px;
+  font-size: 23px;
   font-weight: 400;
-  color: #333;
+  
 }
 .about_us > div {
   width: 50%;
@@ -186,7 +190,8 @@
 }
 .service_card_items:hover{
   background: rgba(255, 255, 40, 0.7);
-  filter: blur(2px);
+  filter: blur(1px);
+  color: #fff;
 }
 
 .card_icons{
@@ -260,4 +265,73 @@
 }
 .portfolio_navigation .navigation_itrems a:hover{
   color: #ffff0d;
+} 
+
+.portfolio_item{
+  position: relative;
 }
+
+.portfolio_items{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 50%;
+  padding: 10px;
+}
+.portfolio_item_2{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.portfolio_item_2 .img{
+  height: 400px;
+}
+
+.portfolio_item_3{
+  position: absolute;
+  right: 0;
+  top: 430px;
+}
+.portfolio_item_3 .img{
+  height: 370px;
+}
+
+.portfolio_items img{
+  height: 800px;
+  width: 100%;
+}
+
+.owerlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(230, 247, 0.9);
+  transition: all .4s ease;
+  visibility: hidden;
+  z-index: 1;
+}
+.owerlay_info{
+  position: absolute;
+  bottom: 44px;
+  left: 80px;
+  color: #000;
+  visibility: hidden;
+  z-index: 1;
+}
+.owerlay_info a{
+  color: #000;
+  text-decoration: none;
+}
+.portfolio_items:hover .owerlay{
+  visibility: visible;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+.portfolio_items:hover .owerlay_info{
+  visibility: visible;
+  z-index: 1;
+}
+
