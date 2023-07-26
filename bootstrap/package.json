@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "boorstrap learned",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdullokhon/MohirDevCurses.git"
+  },
+  "author": "Abdullokh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdullokhon/MohirDevCurses/issues"
+  },
+  "homepage": "https://github.com/Abdullokhon/MohirDevCurses#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}

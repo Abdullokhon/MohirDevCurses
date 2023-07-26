@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "leandro-rodrigues.fluent-ui-vscode"
+        "leandro-rodrigues.fluent-ui-vscode",
+        "kamikillerto.vscode-colorize"
     ]
 }
