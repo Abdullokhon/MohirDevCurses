@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.fw-700{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navbar-nav > li{
+    padding: 0.5rem 0.9rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.home{
+    background: #f0F5f9 ;
+    padding: 150px 0px 100px 0px;
+}
+.card-1{
+    background: #fff2e5;
+}
+.card-2{
+    background: #f8f9fa;
+}
+.card-3{
+    background: #f0f5f9;
+}
+.rewiews-container{
+    padding: 100px 50px;
+    background: #f0F5f9 ;
+}
+.bg-color{
+    background: #f0F5f9 ;    
+}
